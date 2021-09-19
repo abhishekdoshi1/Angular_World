@@ -1,0 +1,188 @@
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  
+    body
+    {
+        margin-left: 50%;
+        margin-right: 3%;
+    }
+
+    .corner {
+        top: 0px;
+        border-top: 150px solid #41c60a;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        }
+
+    .corner-text  span {
+            position: absolute;
+            text-align: center;
+            margin-left: -16%;
+              margin-top: -32%;
+            font-size: 19px;
+            font-family: arial;
+            transform: rotate(45deg);
+            display: block;    
+        }
+
+        .list {
+            padding: 19%;
+            background-color: #ffffff;
+            color: #000;
+            text-align: justify;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            border-radius: 5%;
+            padding: 19%;
+        }
+    
+        form.example input[type=text]{
+            padding: 10px;  
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 89%;
+            background: #f1f1f1;
+            border-top-left-radius: 9px;
+            border-bottom-left-radius: 9px; 
+        }
+        form button  {
+            float: left;
+            width: 10%;
+            padding: 10px;
+            background-image: linear-gradient(to right, #dc317b ,#823a85 , #553f8a);
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+        } 
+        .flex-buttons
+        {
+            flex-wrap: wrap;
+        }
+        .img-width
+        {
+            width: 83%;
+        }
+}
+
+
+@media screen 
+  and (min-device-width:768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .flex-buttons
+    {
+        flex-wrap: wrap;
+    }
+
+    .corner  {
+       
+        border-top: 150px solid #41c60a;
+        color: #fff;
+        border-bottom: 150px solid transparent;
+        border-left: 150px solid transparent;
+        position: absolute;
+        top:0%;
+    }   
+
+    .corner-text span {
+        position: absolute;
+        text-align: center;
+        font-size: 19px;
+        font-family: arial;
+        transform: rotate(45deg);
+        display: block;
+        margin-top: -67%;
+        margin-left: -49%;
+    }
+
+    .list {
+        padding: 19%;
+        background-color: #ffffff;
+        color: #000;
+        text-align: justify;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        border-radius: 5%;
+        padding: 19%;
+    }
+}
+
+
+@media screen 
+  and (min-device-width:1024px) 
+  and (max-device-width: 1336px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .flex-buttons
+    {
+        flex-wrap: wrap;
+    }
+
+    .corner  {
+       
+        border-top: 150px solid #41c60a;
+        color: #fff;
+        border-bottom: 150px solid transparent;
+        border-left: 150px solid transparent;
+        position: absolute;
+        top:0%;
+    }   
+
+    .corner-text span {
+        position: absolute;
+        text-align: center;
+        font-size: 19px;
+        font-family: arial;
+        transform: rotate(45deg);
+        display: block;
+        margin-top: -4%;
+        margin-left: -9%;
+    }
+
+    .list {
+        padding: 19%;
+        background-color: #ffffff;
+        color: #000;
+        text-align: justify;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        border-radius: 5%;
+        padding: 19%;
+    }
+}
+
+
+@media screen 
+  and (min-device-width:1366px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .corner  {
+       
+        border-top: 150px solid #41c60a;
+        color: #fff;
+        border-bottom: 150px solid transparent;
+        border-left: 150px solid transparent;
+        position: absolute;
+        top:0%;
+    }   
+
+    .corner-text span {
+        position: absolute;
+        text-align: center;
+        font-size: 19px;
+        font-family: arial;
+        transform: rotate(45deg);
+        display: block;
+        margin-top: -4%;
+        margin-left: -9%;
+    }
+
+  
+}

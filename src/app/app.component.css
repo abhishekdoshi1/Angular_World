@@ -1,0 +1,176 @@
+.text-color
+{
+    font-family: sans-serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+    /* text-decoration: underline; */
+}
+.circular-square
+{
+    border-radius: 50%;
+}
+
+/* .hr-margin
+{
+    margin-left: 10%;
+    margin-right: 10%;
+} */
+
+.bg-color
+{
+    background-image: linear-gradient(to right, #dc317b ,#823a85 , #553f8a);
+}
+
+.border-gradiants
+{
+    border-image:linear-gradient(to right, #dc317b ,#823a85 , #553f8a);
+    border:1px solid;
+}
+
+
+.container {
+    width: 250px;
+    height: 250px;
+    position:relative;
+    background-color:grey;
+  }
+  
+  .corner {
+    width: 0;
+    height: 0;
+    border-top: 150px solid #41c60a;
+    color: #fff;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid transparent;
+    position:absolute;
+    right:0;
+    bottom: 34.4%;
+  }
+  
+  .corner span {
+    position:absolute;
+    top: -111px;
+    width: 100px;
+    left: -100px;
+    text-align: center;
+    font-size: 24px;
+    font-family: arial;
+    transform: rotate(45deg);
+    display:block;
+  }
+
+  .corner-text span
+  {
+    position:absolute;
+    top: 18%;
+    width: 100px;
+    left: 87%;
+    text-align: center;
+    font-size: 19px;
+    font-family: arial;
+    transform: rotate(45deg);
+    display:block;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background-image: linear-gradient(to right, #dc317b ,#823a85 , #553f8a);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+  
+  .mt-11
+  {
+    margin-top: 11%;
+  }
+  
+
+  
+
+ .shadow
+ {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: gainsboro; */
+
+ }
+
+ .star-align
+ {
+    text-align: center;
+ }
+
+.list
+{
+    width: 60%;
+    background-color: #ffffff;
+    color: #000;
+    text-align: justify;
+    padding-left: 3%;
+    padding-top: 5%;
+    /* left: 4%; */
+    /* right: 3%; */
+    margin-left: 33%;
+    margin-top: 43%;
+    box-shadow:  0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+
+}
+
+
+.mt-80
+{
+    margin-top: 8%;
+}
+
+
+.location
+{
+    padding-top: 1%;
+    padding-left: 0%;
+    padding-right: 1%;
+}
+
+
+.drop
+{
+        width: 97%;  
+        border: transparent;
+        background-color: white;
+        color: #000;   
+}
+
+.fa-circle
+{
+    position: absolute;
+    color: green;
+    left: 73%;
+    top: 18%;
+    z-index: 99;
+}
+
+img
+{
+    position: sticky;
+}
